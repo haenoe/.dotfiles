@@ -9,6 +9,7 @@ window:
 
 font:
   normal:
-    family: "Blex Mono Nerd Font"
+    # family: "Blex Mono Nerd Font"
     # family: "Roboto Mono"
-  size: 16.0
+    family: "JetbrainsMono Nerd Font Mono"
+  size: 12.0
