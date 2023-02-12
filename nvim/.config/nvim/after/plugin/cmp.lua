@@ -20,13 +20,14 @@ cmp.setup({
 
 require("mason").setup()
 require("mason-lspconfig").setup({
-    ensure_installed = { "rust_analyzer", "sumneko_lua", "pyright", "tsserver" },
+    ensure_installed = { "rust_analyzer", "sumneko_lua", "pyright", "tsserver", "nil_ls" },
     automatic_installation = true,
 })
 
 require("lspconfig").rust_analyzer.setup({})
 require("lspconfig").pyright.setup({})
 require("lspconfig").tsserver.setup({})
+require("lspconfig").nil_ls.setup({})
 require("lspconfig").sumneko_lua.setup({
     settings = {
         Lua = {

@@ -11,5 +11,7 @@ font:
   normal:
     # family: "Blex Mono Nerd Font"
     # family: "Roboto Mono"
-    family: "JetbrainsMono Nerd Font Mono"
-  size: 12.0
+    # family: "JetbrainsMono Nerd Font Mono"
+    # family: "Iosevka Nerd Font Mono"
+    family: "Inconsolata Nerd Font Mono"
+  size: 14

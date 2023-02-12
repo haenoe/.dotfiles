@@ -15,9 +15,18 @@ return require("packer").startup(function(use)
     use("lukas-reineke/indent-blankline.nvim")
 
     -- Colorschemes
-    -- use("ellisonleao/gruvbox.nvim")
-    -- use("folke/tokyonight.nvim")
+    use("ellisonleao/gruvbox.nvim")
+    use("folke/tokyonight.nvim")
     use("catppuccin/nvim", { as = "catppuccin" })
+
+    -- Pretty LSP diagnostics
+    use("folke/trouble.nvim", {
+        requires = "nvim-tree/nvim-web-devicons",
+        config = function ()
+           require("trouble").setup()
+        end
+    })
+    use("folke/lsp-colors.nvim")
 
     -- Completion
     use("hrsh7th/nvim-cmp")
