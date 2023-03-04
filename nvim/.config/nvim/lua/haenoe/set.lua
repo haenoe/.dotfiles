@@ -17,3 +17,5 @@ vim.opt.termguicolors = true
 vim.opt.wrap = false
 
 vim.opt.clipboard = "unnamedplus"
+
+vim.g.mapleader = " "

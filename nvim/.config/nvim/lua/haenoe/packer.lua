@@ -23,7 +23,7 @@ return require("packer").startup(function(use)
     use("folke/trouble.nvim", {
         requires = "nvim-tree/nvim-web-devicons",
         config = function ()
-           require("trouble").setup()
+            require("trouble").setup()
         end
     })
     use("folke/lsp-colors.nvim")
@@ -41,6 +41,9 @@ return require("packer").startup(function(use)
     use("williamboman/mason.nvim")
     use("williamboman/mason-lspconfig.nvim")
     use("neovim/nvim-lspconfig")
+
+    -- Fuzzyfinder
+    use("nvim-telescope/telescope.nvim")
 
     -- Formatting etc.
     use("jose-elias-alvarez/null-ls.nvim")
