@@ -5,7 +5,9 @@ env:
   TERM: screen-256color
 
 window:
-  dynamic_padding: true
+  padding:
+    dynamic_padding: true
+  opacity: 0.9
   
 font:
   normal:

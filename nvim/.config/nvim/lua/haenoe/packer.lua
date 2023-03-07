@@ -10,7 +10,7 @@ return require("packer").startup(function(use)
     -- General plugins
     use("nvim-lua/plenary.nvim")
     use("nvim-lualine/lualine.nvim", {
-        requires = { "kyazdani/nvim-web-devicons", opt = true }
+        -- requires = { "kyazdani/nvim-web-devicons", opt = true }
     })
     use("lukas-reineke/indent-blankline.nvim")
 
@@ -19,6 +19,8 @@ return require("packer").startup(function(use)
     use("folke/tokyonight.nvim")
     use("catppuccin/nvim", { as = "catppuccin" })
 
+    use("nvim-tree/nvim-web-devicons")
+
     -- Pretty LSP diagnostics
     use("folke/trouble.nvim", {
         requires = "nvim-tree/nvim-web-devicons",
@@ -26,7 +28,6 @@ return require("packer").startup(function(use)
             require("trouble").setup()
         end
     })
-    use("folke/lsp-colors.nvim")
 
     -- Completion
     use("hrsh7th/nvim-cmp")
