@@ -1,3 +1,5 @@
+require("neodev").setup()
+
 require("mason").setup()
 require("mason-lspconfig").setup({
     ensure_installed = { "rust_analyzer", "lua_ls", "pyright", "tsserver", "nil_ls", "clangd", "kotlin_language_server", "gopls" },

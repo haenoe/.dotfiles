@@ -16,15 +16,15 @@ return require("packer").startup(function(use)
 
     -- Colorschemes
     use("ellisonleao/gruvbox.nvim")
-    use("folke/tokyonight.nvim")
-    use("catppuccin/nvim", { as = "catppuccin" })
+    -- use("folke/tokyonight.nvim")
+    -- use("catppuccin/nvim", { as = "catppuccin" })
 
     use("nvim-tree/nvim-web-devicons")
 
     -- Pretty LSP diagnostics
     use("folke/trouble.nvim", {
         requires = "nvim-tree/nvim-web-devicons",
-        config = function ()
+        config = function()
             require("trouble").setup()
         end
     })
@@ -43,6 +43,9 @@ return require("packer").startup(function(use)
     use("williamboman/mason-lspconfig.nvim")
     use("neovim/nvim-lspconfig")
 
+    -- Vim config
+    use("folke/neodev.nvim")
+
     -- Fuzzyfinder
     use("nvim-telescope/telescope.nvim")
 
@@ -54,6 +57,11 @@ return require("packer").startup(function(use)
         run = ":TSUpdate",
     })
 
+    use({
+        "nvim-treesitter/nvim-treesitter-textobjects",
+        after = "nvim-treesitter",
+        requires = "nvim-treesitter/nvim-treesitter",
+    })
     -- Game
     use("ThePrimeagen/vim-be-good")
 end)

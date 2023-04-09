@@ -1,8 +1,9 @@
-require("gruvbox").setup({
-   transparent_mode = true
-})
-
 vim.o.background = "dark"
+
+require("gruvbox").setup({
+   contrast = "hard",
+   transparent_mode = true,
+})
 
 -- require("catppuccin").setup({
 --    flavour = "mocha",

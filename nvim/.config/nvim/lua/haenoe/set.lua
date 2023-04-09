@@ -18,4 +18,14 @@ vim.opt.wrap = false
 
 vim.opt.clipboard = "unnamedplus"
 
+vim.opt.swapfile = false
+vim.opt.backup = false
+vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
+vim.opt.undofile = true
+
+vim.opt.signcolumn = "yes"
+vim.opt.showcmd = true
+
+-- vim.opt.cmdheight = 0
+
 vim.g.mapleader = " "
