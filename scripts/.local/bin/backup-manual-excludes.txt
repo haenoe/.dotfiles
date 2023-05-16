@@ -1,0 +1,11 @@
+$HOME/Android
+$HOME/.android
+$HOME/.docker
+$HOME/_restic-backup-test
+$HOME/.local
+$HOME/.rustup
+$HOME/.gradle
+$HOME/.cargo
+$HOME/.cache
+$HOME/.fonts
+$HOME/.config

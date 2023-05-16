@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+restic backup \
+    -r sftp:backup:/home/backup-foo \
+    --exclude-caches \
+    --exclude-file=backup-manual-excludes.txt \
+    --one-file-system \
+    /home/haenoe

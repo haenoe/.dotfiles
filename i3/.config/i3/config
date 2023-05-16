@@ -102,7 +102,7 @@ bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
-# bindsym $mod+Shift+space floating toggle
+bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
 # bindsym $mod+space focus mode_toggle
@@ -212,7 +212,7 @@ bindsym XF86AudioLowerVolume exec --no-startup-id qdbus org.kde.kglobalaccel /co
 bindsym XF86AudioMute exec --no-startup-id qdbus org.kde.kglobalaccel /component/kmix invokeShortcut "mute"
 bindsym XF86AudioMicMute exec --no-startup-id qdbus org.kde.kglobalaccel /component/kmix invokeShortcut "mic_mute"
 
-exec --no-startup-id feh --bg-scale ~/Desktop/background/900694.jpg
+exec --no-startup-id feh --bg-scale ~/background.jpg
 exec --no-startup-id picom --experimental-backends -b
 
 gaps inner 8
@@ -223,4 +223,9 @@ bindsym $mod+space exec --no-startup-id rofi -show drun
 for_window [title="Desktop - Plasma"] kill; floating enable; border none
 for_window [title="Desktop @ QRect"] kill; floating enable; border none
 
-# for_window [class="^.*"] border pixel 0
+for_window [class="^.*"] border pixel 2
+for_window [title=".*Emulator.*"] floating enable
+
+assign [class="firefox"] 3
+
+# exec --no-startup-id "i3-msg 'workspace 4; append_layout ~/.config/i3/layouts/obsidian-layout.json'"

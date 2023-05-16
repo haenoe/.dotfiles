@@ -9,6 +9,9 @@ return {
             disable_frontmatter = true,
             use_advanced_uri = true,
             open_app_foreground = true,
+            note_id_func = function(title)
+                return title
+            end
         }
     end
 }
