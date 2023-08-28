@@ -33,10 +33,10 @@ font:
     # family: "Blex Mono Nerd Font"
     # family: "Roboto Mono"
     # family: "JetbrainsMono Nerd Font Mono"
-    # family: "Iosevka Nerd Font Mono"
+    family: "Iosevka Term Nerd Font Mono"
     # family: "Inconsolata Nerd Font Mono"
-    family: "FiraCode Nerd Font Mono"
-  size: 14
+    # family: "FiraCode Nerd Font Mono"
+  size: 18
 
 window:
   padding:
