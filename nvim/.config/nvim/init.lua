@@ -21,8 +21,8 @@ end
 
 vim.opt.rtp:prepend(lazypath)
 
-require('lazy').setup({
-}, {})
+--    For additional information see: https://github.com/folke/lazy.nvim#-structuring-your-plugins
+require('lazy').setup("modules");
 
 -- [[ Setting options ]]
 -- See `:help vim.o`
