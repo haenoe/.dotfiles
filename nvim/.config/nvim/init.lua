@@ -69,24 +69,6 @@ require('lazy').setup({
   },
 
   {
-    -- Pretty colorscheme
-    'ellisonleao/gruvbox.nvim',
-    priority = 1000,
-    config = function()
-      require("gruvbox").setup({ transparent_mode = true })
-      vim.cmd.colorscheme "gruvbox"
-    end,
-  },
-
-  -- {
-  --   'nyoom-engineering/oxocarbon.nvim',
-  --   priority = 1000,
-  --   config = function()
-  --     vim.cmd.colorscheme "oxocarbon"
-  --   end
-  -- },
-
-  {
     -- Set lualine as statusline
     'nvim-lualine/lualine.nvim',
     -- See `:help lualine.txt`
