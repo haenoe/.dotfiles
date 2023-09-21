@@ -1,0 +1,44 @@
+/home/haenoe/backups/*
+/home/haenoe/Documents
+/home/haenoe/isos
+/home/haenoe/programming
+/home/haenoe/Pictures
+/home/haenoe/Desktop
+/home/haenoe/Videos
+/home/haenoe/.fonts
+/home/haenoe/fonts
+/home/haenoe/pkm
+/home/haenoe/.dotfiles
+/home/haenoe/.oh-my-zsh
+/home/haenoe/nix-configuration
+/home/haenoe/.homelab
+/home/haenoe/.vim
+/home/haenoe/backgrounds
+/home/haenoe/Downloads
+/home/haenoe/.zsh_history
+/home/haenoe/.ssh
+/home/haenoe/Templates
+/home/haenoe/Public
+/home/haenoe/Music
+/home/haenoe/.zshrc
+
+# /home/haenoe/.local
+# /home/haenoe/Android
+# /home/haenoe/.cache
+# /home/haenoe/.docker
+# /home/haenoe/Applications
+# /home/haenoe/.cargo
+# /home/haenoe/.rustup
+# /home/haenoe/.gradle
+# /home/haenoe/.var
+# /home/haenoe/.vscode
+# /home/haenoe/.minecraft
+# /home/haenoe/.npm
+# /home/haenoe/.m2
+# /home/haenoe/.nvm
+# /home/haenoe/go
+# /home/haenoe/.oh-my-zsh
+# /home/haenoe/.icons
+# /home/haenoe/.tmux
+# /home/haenoe/.android
+# /home/haenoe/.java

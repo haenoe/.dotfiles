@@ -1,0 +1,12 @@
+$HOME/.local/share
+$HOME/.cache
+$HOME/.ghcup
+$HOME/.rustup
+$HOME/.cargo
+$HOME/.gradle
+$HOME/.var
+$HOME/.cabal
+$HOME/.minecraft
+$HOME/.npm
+$HOME/.m2
+$HOME/.nvm
